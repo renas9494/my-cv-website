@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renas Farooq Qader - CV</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+#about img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul li {
+    list-style: none;
+}
+
+</style>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Renas Farooq Qader</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <!-- About Section -->
+        <section id="about">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="your-photo.jpg" alt="Renas Farooq Qader" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-8">
+                    <h1>Renas Farooq Qader</h1>
+                    <p>Erbil, Iraq</p>
+                    <p><strong>Phone:</strong> +964 751 795 24 22</p>
+                    <p><strong>Email:</strong> <a href="mailto:renas9.re@hotmail.com">renas9.re@hotmail.com</a></p>
+                    <p>A highly skilled IT Executive experienced in strategizing and leading IT initiatives to drive organizational growth and efficiency. Adept at managing large-scale IT projects, optimizing system performance, and implementing cutting-edge technology solutions. Proven track record in fostering high-performing teams, ensuring robust IT infrastructure, and aligning technology strategies with business goals. Committed to delivering innovative solutions that enhance operational capabilities and support business objectives.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="mt-5">
+            <h2>Experience</h2>
+            <ul class="list-unstyled">
+                <li class="media">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Information Technology Executive, Soran University</h5>
+                        <p><strong>2023-Present</strong></p>
+                        <ul>
+                            <li>Developed and executed a comprehensive IT strategy aligned with organizational goals.</li>
+                            <li>Directed and motivated a high-performing IT team.</li>
+                            <li>Led the implementation of new technology solutions.</li>
+                            <li>Managed the IT budget ensuring cost-effective resource allocation.</li>
+                            <li>Established and maintained robust IT infrastructure.</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="media my-4">
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">IT Support and Software Developer, Soran University</h5>
+                        <p><strong>2022-2023</strong></p>
+                        <ul>
+                            <li>Installed and configured computer hardware, software, systems, printers, and scanners.</li>
+                            <li>Developed software and monitored computer systems.</li>
+                            <li>Designed and printed student and business ID cards.</li>
+                        </ul>
+                    </div>
+                </li>
+                <!-- Repeat similar structure for other experiences -->
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mt-5">
+            <h2>Projects</h2>
+            <ul class="list-unstyled">
+                <li>Soran University Student Information System - using PHP, jQuery (sis.soran.edu.iq)</li>
+                <li>Soran E-Library website - using PHP, jQuery (elib.soran.edu.iq)</li>
+                <li>Soran University Staff - using PHP, jQuery (staff.soran.edu.iq)</li>
+                <!-- Add other projects here -->
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mt-5">
+            <h2>Contact</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2024 Renas Farooq Qader</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+<script>
+// Example: Form validation
+document.querySelector('form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    alert('Form submitted!');
+});
+
+</script>
+</body>
+</html>
